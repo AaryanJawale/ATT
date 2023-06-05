@@ -1,0 +1,603 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-color: #fff;
+}
+
+.container {
+    background-image: url(att\ background.png);
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+nav ul{
+    float: right;
+    margin-right: 40px; 
+    margin-top: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li a:hover{
+    color: red;
+}
+nav ul li a:active{
+    color: black;
+}
+#btn1{
+    background-color: black;
+    color: white;
+    font-family: serif;
+    position: absolute;
+    top: 10px;
+    left: 50px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-style: hidden;
+}
+#btn1:hover{
+    color: white;
+    background-color: grey;
+}
+#btn1:active{
+    color: white;
+    background-color: black;
+}
+#btn2{
+    background-color: black;
+    color: white;
+    font-family: serif;
+    position: absolute;
+    top: 10px;
+    left: 120px;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-style: hidden;
+}
+#btn2:hover{
+    color: #fff;
+    background-color: gray;
+}
+#btn2:active{
+    color: white;
+    background-color: black;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-family: serif;
+    font-weight: 2000;
+    font-size: xx-large;
+}
+h2{
+    font-family: serif;
+    margin-top: 60px;
+    margin-left: 300px;
+    font-weight: bolder;
+    font-size: 24px;
+}
+p{
+    text-align: left;
+    font-size: 19px;
+    margin-left: 800px;
+    margin-top: 20px;
+    position: relative;
+    top: -250px;
+    font-family: serif;
+    font-weight: bolder;
+}
+img{
+    height: 300px;
+}
+.btnsss{
+    position: absolute;
+    left: 850px;
+    padding: 10px 20px;
+    font-weight: 1000;
+    background-color: black;
+    color: goldenrod;
+    font-family: serif;
+    font-size: 15px;
+    border-style: hidden;
+}
+.btnsss:hover{
+    background-color: grey;
+    color: goldenrod;
+    border-color: grey;
+}
+.btnsss:active{
+    background-color: #000;
+    color: #fff;
+    border-color: grey;
+}
+#ear{
+    top: 1040px;
+    padding: 10px 28px;
+}
+#swi{
+    top: 1640px;
+    padding: 10px 33px;
+}
+#scor{
+    top: 2230px;
+    padding: 10px 24px;
+}
+#inn{
+    top: 2880px;
+    padding: 10px 28px;
+}
+img{
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+#stan{
+    height: 480px;
+    top: -20px;
+}
+.swift{
+    top: -400px;
+}
+#nfo{
+    margin-top: -150px;
+}
+#lee{
+    top: 40px;
+    left: 150px;
+    height: 350px;
+}
+.scor{
+    top: 10px;
+}
+.imgbg{
+    z-index: -1;
+    top: -568px;
+    position: relative;
+    left: 40px;
+    height: 550px;
+    width: 1200px;
+}
+.wagp{
+    top: -235px;
+    right: 50px;
+}
+.wagnor{
+    position: relative;
+}
+.ntb{
+    top: -25px;
+    left: 750px;
+}
+.wagno{
+    position: static;
+}
+.ertigo{
+    position: relative;
+    top: -500px;
+}
+.swifto{
+    position: absolute;
+    top: 1350px;
+}
+.scorpio{
+    position: absolute;
+    top: 2000px;
+}
+.inno{
+    position: absolute;
+    top: 2650px;
+}
+#ommm{
+    height: 300px;
+    top: 50px;
+}
+#nop{
+    top: 100px;
+}
+#kom{
+    left: 200px;
+    height: 380px; 
+    top: 80px;
+}
+.wag{
+    margin-left: -50px;
+}
+.logo{
+    margin-left: -400px;
+    margin-bottom: 35px;
+    z-index: -1;
+}
+.bla{
+    display: flex;
+    margin-bottom: -80px;
+}
+@media (min-width: 376px) and (max-width: 425px){
+    h1{
+        margin-right: -500px;
+    }
+    h2{
+        margin-top: 100px;
+        margin-left: 150px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: #000;
+        color: gold;
+        text-align: center;
+    }
+    #rop{
+        margin-right: -580px;
+        margin-left: 140px;
+        text-align: center;
+    }
+    #nom{
+        margin-top: -70px;
+        margin-right: -650px;
+        text-align: center ;
+    }
+    #nop{
+        margin-left: 140px;
+        margin-right: -10px;
+        margin-top: 350px;
+        text-align: center;
+
+    }
+    #noq{
+        margin-top: 400px;
+        margin-left: 140px;
+        margin-right: -50px;
+        text-align: center;
+        
+    }
+    #nor{
+        margin-top: 500px;
+        margin-left: 140px;
+        margin-right: 60px;
+    }
+    .bitch{
+        left: -70px;
+    }
+    .wagno{
+        margin-left: -70px;
+    }
+    .ertigo{
+        margin-top: 400px;
+    }
+    .imgbg{
+        display: none;
+    }
+    img{
+        margin-top: 30px;
+        height: 300px;
+    }
+    #kom{
+        height: 500px;
+        width: 600px;
+        margin-top: -30px;
+        margin-left: 300px;
+    }
+    .ear{
+        height: 350px;
+        margin-left: 320px;
+    }
+    #ommm{
+        height: 380px;
+        margin-left: 280px;
+    }
+    #mah{
+        height: 400px;
+        margin-left: 420px;
+        margin-top: 50px;
+        width: 600px;
+    }
+    #vux{
+        height: 500px;
+        margin-left: 250px;
+    }
+    .fock{
+        text-align: left;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+    .sock{
+        margin-top: -20px;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 80px;
+    }
+    .mon{
+        margin-left: 150px;
+        margin-top: -30px;
+        padding-bottom: 90px;
+        font-size: 25px;
+    }
+    .nom{
+        margin-top: -30px;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 90px;
+    }
+    .opo{
+        margin-top: -100px;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 150px;
+    }
+    .btnsss{
+        margin-top: 150px;
+        margin-left: 40px;
+        padding: 20px 60px;
+    }
+    #patang{
+        margin-top: 180px ;
+        font-size: 18px;
+        padding: 40px 40px;
+        margin-left: -100px;
+    }
+
+}
+@media (min-width: 321px) and (max-width: 375px){
+    h1{
+        margin-right: -500px;
+    }
+    h2{
+        margin-top: 100px;
+        margin-left: 150px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: #000;
+        color: gold;
+        text-align: center;
+    }
+    #rop{
+        margin-right: -580px;
+        margin-left: 140px;
+        text-align: center;
+    }
+    #nom{
+        margin-top: -70px;
+        margin-right: -650px;
+        text-align: center ;
+    }
+    #nop{
+        margin-left: 140px;
+        margin-right: -10px;
+        margin-top: 350px;
+        text-align: center;
+
+    }
+    #noq{
+        margin-top: 400px;
+        margin-left: 140px;
+        margin-right: -50px;
+        text-align: center;
+        
+    }
+    #nor{
+        margin-top: 500px;
+        margin-left: 140px;
+        margin-right: 60px;
+    }
+    .bitch{
+        left: -70px;
+    }
+    .wagno{
+        margin-left: -70px;
+    }
+    .ertigo{
+        margin-top: 400px;
+    }
+    .imgbg{
+        display: none;
+    }
+    img{
+        margin-top: 30px;
+        height: 300px;
+    }
+    #kom{
+        height: 500px;
+        width: 600px;
+        margin-top: -30px;
+        margin-left: 300px;
+    }
+    .ear{
+        height: 350px;
+        margin-left: 320px;
+    }
+    #ommm{
+        height: 380px;
+        margin-left: 230px;
+    }
+    #mah{
+        height: 400px;
+        margin-left: 370px;
+        margin-top: 50px;
+        width: 600px;
+    }
+    #vux{
+        height: 500px;
+        margin-left: 190px;
+    }
+    .fock{
+        text-align: left;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+    .sock{
+        margin-top: -20px;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 80px;
+    }
+    .mon{
+        margin-left: 150px;
+        margin-top: -30px;
+        padding-bottom: 90px;
+        font-size: 25px;
+    }
+    .nom{
+        margin-top: -30px;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 90px;
+    }
+    .opo{
+        margin-top: -100px;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 150px;
+    }
+    .btnsss{
+        margin-top: 150px;
+        margin-left: 40px;
+        padding: 20px 60px;
+    }
+    #patang{
+        margin-top: 180px ;
+        font-size: 18px;
+        padding: 40px 40px;
+        margin-left: -100px;
+    }
+}
+@media (max-width:320px) {
+    h1{
+        margin-right: -500px;
+    }
+    h2{
+        margin-top: 100px;
+        margin-left: 150px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        background-color: #000;
+        color: gold;
+        text-align: center;
+    }
+    #rop{
+        margin-right: -620px;
+        margin-left: 140px;
+        text-align: center;
+    }
+    #nom{
+        margin-top: -70px;
+        margin-right: -690px;
+        text-align: center ;
+    }
+    #nop{
+        margin-left: 140px;
+        margin-right: -10px;
+        margin-top: 350px;
+        text-align: center;
+
+    }
+    #noq{
+        margin-top: 400px;
+        margin-left: 140px;
+        margin-right: -50px;
+        text-align: center;
+        
+    }
+    #nor{
+        margin-top: 500px;
+        margin-left: 140px;
+        margin-right: 60px;
+    }
+    .bitch{
+        left: -70px;
+    }
+    .wagno{
+        margin-left: -70px;
+    }
+    .ertigo{
+        margin-top: 400px;
+    }
+    .imgbg{
+        display: none;
+    }
+    img{
+        margin-top: 30px;
+        height: 300px;
+    }
+    #kom{
+        height: 500px;
+        width: 600px;
+        margin-top: -30px;
+        margin-left: 300px;
+    }
+    .ear{
+        height: 350px;
+        margin-left: 320px;
+    }
+    #ommm{
+        height: 380px;
+        margin-left: 230px;
+    }
+    #mah{
+        height: 400px;
+        margin-left: 370px;
+        margin-top: 50px;
+        width: 600px;
+    }
+    #vux{
+        height: 500px;
+        margin-left: 190px;
+    }
+    .fock{
+        text-align: left;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 40px;
+    }
+    .sock{
+        margin-top: -20px;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 80px;
+    }
+    .mon{
+        margin-left: 150px;
+        margin-top: -30px;
+        padding-bottom: 90px;
+        font-size: 25px;
+    }
+    .nom{
+        margin-top: -30px;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 90px;
+    }
+    .opo{
+        margin-top: -100px;
+        margin-left: 150px;
+        font-size: 25px;
+        padding-bottom: 150px;
+    }
+    .btnsss{
+        margin-top: 150px;
+        margin-left: 40px;
+        padding: 20px 60px;
+    }
+    #patang{
+        margin-top: 180px ;
+        font-size: 18px;
+        padding: 40px 40px;
+        margin-left: -100px;
+    }
+
+}
